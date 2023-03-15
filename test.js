@@ -1,7 +1,7 @@
 // Exercise #1
 // Part 1
 let person = ['Sofia','David','Juan'];
-console.log(person);
+// console.log(person);
 
 // Part 2
 person.push('Sara','Augustin');
@@ -54,7 +54,7 @@ let loopNum = (num) => {
 }
 loopNum(6);
 
-// // ===== 4 =====
+// ===== 4 =====
 let n = 19;
 let sum = 0;
 let i = 1;
