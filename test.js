@@ -1,14 +1,14 @@
-// // Exercise #1
-// // Part 1
+// Exercise #1
+// Part 1
 let person = ['Sofia','David','Juan'];
 console.log(person);
 
-// // Part 2
+// Part 2
 person.push('Sara','Augustin');
 console.log(person);
 console.log(person[0]);
 
-// // Part 3
+// Part 3
 person.splice(2,0,'Renata');
 console.log(person);
 person.push('Elena');
@@ -28,12 +28,11 @@ console.log(temp);
 // Exercise #3
 // ===== 1 =====
 let xValue = 10;
-let x = 0.5;
+const x = 0;
 while (x < xValue) {
-    if (xValue > 0) {
-        xValue -= x;
+    if (xValue >= 0) {
         console.log(xValue);
-        xValue--;
+        xValue -= 0.5;
     }
 }
 
@@ -55,8 +54,8 @@ let loopNum = (num) => {
 }
 loopNum(6);
 
-// ===== 4 =====
-let n = 5;
+// // ===== 4 =====
+let n = 19;
 let sum = 0;
 let i = 1;
 while (i <= n) {
